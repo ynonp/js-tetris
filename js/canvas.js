@@ -1,4 +1,7 @@
-function Canvas(params) {
+import shapes from './shapes';
+import { EMPTY, SHADOW } from './consts';
+
+export default function Canvas(params) {
   this.config = params.config;
   this.canvas = document.getElementById(this.config.id);
   this.canvas.width = this.config.width;

@@ -1,3 +1,11 @@
+import Board from './board';
+import Piece from './piece';
+import Score from './score';
+import Timer from './timer';
+import GameState from './game-state';
+import Canvas from './canvas';
+import config from '../config/config';
+
 (function(config) {
   var board = new Board(config.game.board.rows,config.game.board.cols),
       piece = new Piece(board),

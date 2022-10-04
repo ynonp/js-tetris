@@ -1,4 +1,4 @@
-function Score() {
+export default function Score() {
   this.lines = null;
   this.level = null;
 };

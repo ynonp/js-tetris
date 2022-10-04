@@ -1,4 +1,7 @@
-function Piece(board) {
+import shapes from './shapes';
+import { EMPTY, O, PIVOT } from './consts';
+
+export default function Piece(board) {
   this.board = board;
   this.shape = null;
   this.blocks = [];

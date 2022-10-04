@@ -1,4 +1,6 @@
+import { O, I, S, Z, L, J, T } from './consts';
 var shapes = [];
+export default shapes;
 
 shapes[O] = [
   { x: - 1, y: + 0 },

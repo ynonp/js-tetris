@@ -1,4 +1,6 @@
-function Board(rows, cols) {
+import { EMPTY } from './consts';
+
+export default function Board(rows, cols) {
   var i;
 
   this.cells = [];
@@ -84,5 +86,4 @@ Board.prototype = {
       }
     });
   }
-
 };

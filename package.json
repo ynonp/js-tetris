@@ -1,0 +1,27 @@
+{
+  "name": "js-tetris",
+  "version": "1.0.0",
+  "description": "- Clone project: `git clone https://github.com/fjperezcostas/js-tetris.git`<br>\r - Move into `/js-tetris` folder and open `index.html` file with your favourite browser.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynonp/js-tetris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynonp/js-tetris/issues"
+  },
+  "homepage": "https://github.com/ynonp/js-tetris#readme",
+  "dependencies": {
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.11.1"
+  }
+}

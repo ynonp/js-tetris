@@ -1,4 +1,4 @@
-var config = {
+export default {
   game: {
     board: {
       rows: 23,
